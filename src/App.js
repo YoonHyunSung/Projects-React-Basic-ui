@@ -9,6 +9,10 @@ import Navi from './components/Navi'
 import SchoolStatus from './components/SchoolStatus';
 import styled from 'styled-components';
 import Header from './components/Header';
+import Basic from './modern-javascript/chap-01-basic/Basic';
+import NavigationForJavaScript from './components/NavigationForJavaScript';
+import ArrowFunction from './modern-javascript/chap-02-arrow-function/ArrowFunction';
+import Arguments from './modern-javascript/chap-03-arguments/Arguments';
 //import './App.css';
 
 const App = () =>(
@@ -16,16 +20,30 @@ const App = () =>(
     <Layout>
       <Header/>
       <Navi/>
+      <NavigationForJavaScript/>
     </Layout>
     <Switch>
-    <Route exact path='/' component = {Home}/>
-    <Redirect from='/Home' to = {'/'}/>
+    <Route exact path='/' component= { Home }/>
+    <Redirect from='/home' to= { '/' }/>
     <Route exact path='/join' component={Join}/>
     <Route exact path='/online-profile' component={OnlineProfile}/>
     <Route exact path='/course-register' component={CourseRegister}/>
     <Route exact path='/login' component ={Login}/>
     <Route exact path='/school-status' component ={SchoolStatus}/>
-    </Switch> 
+
+    <Route exact path='/basic' component={Basic}/>
+    <Route exact path='/arrow-function' component={ArrowFunction}/>
+    <Route exact path='/arguments' component={Arguments}/>
+    <Route exact path='/arguments' component={Arguments}/>
+    <Route exact path='/arguments' component={Arguments}/>
+    <Route exact path='/arguments' component={Arguments}/>
+    <Route exact path='/arguments' component={Arguments}/>
+    <Route exact path='/arguments' component={Arguments}/>
+    <Route exact path='/arguments' component={Arguments}/>
+    <Route exact path='/arguments' component={Arguments}/>
+    <Route exact path='/arguments' component={Arguments}/>
+    
+    </Switch>
     </>
   );
   const Layout = styled.div`
