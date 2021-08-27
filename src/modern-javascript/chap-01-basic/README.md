@@ -35,3 +35,8 @@ while	with	yield
 ##### 5. undefined
 ##### 6. symbol
 ##### 7. JSON {}
+
+## HTML 로 Document
+##
+## 강타입 언어는 컴파일언어
+## 약타입 언어는 인터프리터언어

@@ -20,7 +20,7 @@ const Basic = () =>{
         const car = {
             wheels: 4,
             color: "red",
-            drive: function(){
+            drive: ()=>{
                 console.log("wroom wroom");
                 }
         };

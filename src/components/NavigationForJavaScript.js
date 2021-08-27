@@ -26,6 +26,8 @@ const NavigationForJavaScript = () =>(
     <li><Link to='es2019' >Chap21-ES2019</Link></li>
     <li><Link to='es2020' >Chap22-ES2020</Link></li>
     <li><Link to='typescript' >Chap23-Typescript</Link></li>
+    <li><Link to='cofinchart' >cofinChart</Link></li>
+
 </ul>
 </>
 );
